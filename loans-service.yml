@@ -5,7 +5,7 @@ spring:
   application:
     name: loans-service
   
-    kafka:
+  kafka:
     bootstrap-servers: localhost:9092
     consumer:
       group-id: loan-group
